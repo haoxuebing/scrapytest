@@ -91,7 +91,7 @@ DOWNLOADER_MIDDLEWARES = {
 #HTTPCACHE_IGNORE_HTTP_CODES = []
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
 
-mongo_host = '39.104.166.99'
+mongo_host = '127.0.0.1'
 mongo_port = 27017
 mongo_db_name = 'douban'
 mongo_db_collection = 'douban_movie'
