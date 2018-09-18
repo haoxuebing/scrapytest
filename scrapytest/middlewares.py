@@ -107,8 +107,8 @@ class ScrapytestDownloaderMiddleware(object):
 
 class my_proxy(object):
     def process_request(self, request, spider):
-        # pass
-        request.meta['proxy'] = 'https://222.137.75.138:8118'
+        pass
+        #request.meta['proxy'] = 'https://222.137.75.138:8118'
         # proxy_name_pass = b'H211EATS905745KC:F8FFBC929EB7D5A7'
         # encode_pass_name = base64.b64encode(proxy_name_pass)
         # request.headers['Proxy-Authorization'] = 'Basic ' + encode_pass_name.decode()
